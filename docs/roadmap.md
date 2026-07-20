@@ -34,7 +34,7 @@
 
 ## Sprint 1:环境 + 最小闭环(D1–D3)
 
-- [ ] D1:GitHub 仓库建立;Win/Mac clone;docker compose 起 PG+Redis;uv 初始化;DeepSeek key 验证
+- [X] D1:GitHub 仓库建立;Win/Mac clone;docker compose 起 PG+Redis;uv 初始化;DeepSeek key 验证
 - [ ] D2:建表(memories/audit_log)+ 迁移;embedding 选型速决(**ADR-002,限时 1 小时做决定**,建议直接用 API 型 embedding 避免本地模型部署开销)
 - [ ] D3:FastAPI 骨架 + API key 鉴权;`POST /memories`(同步直存版)+ `GET /search`(纯向量);pytest 骨架 + Actions 跑测试
 - **验收**:三条 curl 完成存→查→命中
